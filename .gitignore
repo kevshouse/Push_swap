@@ -1,0 +1,53 @@
+# -----------------------------------------------------------------------------
+# PUSH_SWAP GITIGNORE
+# -----------------------------------------------------------------------------
+# This file specifies intentionally untracked files to ignore when using Git.
+# -----------------------------------------------------------------------------
+
+# -------------------------------
+# 1. BUILD ARTIFACTS
+# -------------------------------
+/push_swap         # Main executable
+/test_stack        # Test executable
+/obj/              # Object files directory
+/coverage/         # Coverage reports
+*.o                # Individual object files
+*.a                # Static libraries
+*.so               # Dynamic libraries
+*.dylib            # macOS dynamic libraries
+
+# -------------------------------
+# 2. EDITOR/IDE FILES
+# -------------------------------
+.vscode/           # VSCode configuration
+.idea/             # JetBrains IDE configuration
+*.swp              # Vim swap files
+*.swo              # Vim swap files
+*~                 # Backup files
+.DS_Store          # macOS folder metadata
+
+# -------------------------------
+# 3. TEMPORARY FILES
+# -------------------------------
+*.tmp              # Temporary files
+*.log              # Log files
+*.out              # Output files
+
+# -------------------------------
+# 4. TEST-SPECIFIC IGNORES
+# -------------------------------
+*.gcda             # GCC coverage data
+*.gcno             # GCC coverage notes
+*.gcov             # GCC coverage reports
+
+# -------------------------------
+# 5. SYSTEM FILES
+# -------------------------------
+a.out              # Default compiler output
+*.dSYM/            # macOS debug symbols
+
+# -------------------------------
+# 6. PERSONAL FILES
+# -------------------------------
+personal_notes.txt # Example personal file
+/tmp/              # Local temporary directory
