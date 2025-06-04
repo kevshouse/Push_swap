@@ -107,7 +107,7 @@ Enum declarations (t_log_level, t_operation)
 Function prototypes
 
 Logging configuration
-
+```bash
 Typical Directory Structure:
 push_swap/
 ├── include/
@@ -128,6 +128,7 @@ push_swap/
 │   └── stack_inspection.c
 ├── Makefile
 └── main.c (your main push_swap file)
+```
 Key Characteristics:
 Norm Compliance:
 
